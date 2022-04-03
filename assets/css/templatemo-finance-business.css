@@ -234,7 +234,7 @@ a.border-button:hover {
 header {
 	position: absolute;
 	z-index: 99999;
-	width: 100%;
+	/* width: 100%; */
 	background-color: transparent!important;
 	height: 80px;
 	-webkit-transition: all 0.3s ease-in-out 0s;
@@ -386,17 +386,6 @@ header .navbar {
 	height:95vh;
 }
 
-.Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/slide_01.jpg);
-}
-
-.Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/slide_02.jpg);
-}
-
-.Modern-Slider .item-3 .img-fill {
-	background-image: url(../images/slide_03.jpg);
-}
 
 .Modern-Slider .NextArrow{
   position:absolute;
@@ -580,7 +569,6 @@ ul.slick-dots {
 
 .fun-facts {
 	margin-top: 140px;
-	background-image: url(../images/fun-facts-bg.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;

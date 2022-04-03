@@ -9,6 +9,7 @@
   <meta name="author" content="TemplateMo">
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
     rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 
   <title>Finance Business HTML5 Template</title>
 
@@ -55,7 +56,7 @@ https://templatemo.com/tm-545-finance-business
       </div>
     </div>
 
-    <div class="col-sm-8 py-3">
+    <div class="col-sm-7 py-3 overflow-auto" style="height: 100vh;">
       <!-- ***** Preloader Start ***** -->
       <div id="preloader">
         <div class="jumper">
@@ -73,44 +74,55 @@ https://templatemo.com/tm-545-finance-business
           <div class="row">
             <div class="col-md-8 col-xs-12">
               <ul class="left-info">
-                <li>
-                  <a href="#" data-editableproperties="href" class="data-editable">
-                    <i data-editableproperties="classNames" class="fa fa-clock-o data-editable" aria-hidden="true"></i>
-                    <span data-editableproperties="innerText" class="data-editable">Mon-Fri 09:00-17:00</span>
+                <li class="data-editable" data-title="Block 1" id="block1">
+                  <a href="#" data-index="0" data-editiontype="href">
+                    <i data-index="1" data-editiontype="icon" class="fa fa-clock-o" aria-hidden="true"></i>
+                    <span data-index="2" data-editiontype="text">Mon-Fri 09:00-17:00</span>
                   </a>
                 </li>
-                <li><a href="#" data-editableproperties="href" class="data-editable">
-                    <i class="fa fa-phone" aria-hidden="true" data-editableproperties="classNames"
-                      class="data-editable"></i>
-                    <span data-editableproperties="innerText" class="data-editable">090-080-0760</span>
-                  </a></li>
+                <li class="data-editable" data-title="Block 2" id="block2">
+                  <a href="#" data-index="0" data-editiontype="href">
+                    <i data-index="1" data-editiontype="icon" class="fa fa-clock-o " aria-hidden="true"></i>
+                    <span data-index="2" data-editiontype="text" class="">Sat-Mon 00:00-01:00</span>
+                  </a>
+                </li>
+                <li class="data-editable" data-title="Block 3" id="block3">
+                  <a data-index="0" href="#" data-editiontype="href">
+                    <i data-index="1" class="fa fa-phone" aria-hidden="true" data-editiontype="icon" class=""></i>
+                    <span data-index="2" data-editiontype="text" class="">090-080-0760</span>
+                  </a>
+                </li>
               </ul>
             </div>
             <div class="col-md-4">
               <ul class="right-icons">
-                <li><a href="#" class="data-editable" data-editableproperties="href"><i
-                      data-editableproperties="classNames" class="data-editable fa fa-facebook"
-                      aria-hidden="true"></i></a></li>
-                <li><a href="#" class="data-editable" data-editableproperties="href"><i
-                      data-editableproperties="classNames" class="data-editable fa fa-twitter"
-                      aria-hidden="true"></i></a></li>
-                <li><a href="#" class="data-editable" data-editableproperties="href"><i
-                      data-editableproperties="classNames" class="data-editable fa fa-linkedin"
-                      aria-hidden="true"></i></a></li>
-                <li><a href="#" class="data-editable" data-editableproperties="href"><i
-                      data-editableproperties="classNames" class="data-editable fa fa-behance"
-                      aria-hidden="true"></i></a></li>
+                <li class="data-editable" data-title="Block 4" id="block4">
+                  <a href="#" data-index="0" href="#" data-editiontype="href">
+                    <i data-index="1" data-editiontype="icon" class="fa fa-facebook" aria-hidden="true"></i></a>
+                </li>
+                <li class="data-editable" data-title="Block 5" id="block5">
+                  <a href="#" data-index="0" href="#" data-editiontype="href">
+                    <i data-index="1" data-editiontype="icon" class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li class="data-editable" data-title="Block 6" id="block6">
+                  <a href="#" data-index="0" href="#" data-editiontype="href">
+                    <i data-index="1" data-editiontype="icon" class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </li>
+                <li class="data-editable" data-title="Block 7" id="block7">
+                  <a href="#" data-index="0" href="#" data-editiontype="href">
+                    <i data-index="1" data-editiontype="icon" class="fa fa-behance" aria-hidden="true"></i></a>
+                </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
 
-      <header class="" id="header" data-section="head" data-sectionTitle="Header">
+      <header id="header" data-section="head" data-sectionTitle="Header">
         <nav class="navbar navbar-expand-lg">
           <div class="container">
-            <a class="navbar-brand" href="index.html">
-              <h2 class="data-editable" data-editableproperties="innerText">Finance Business</h2>
+            <a class="navbar-brand" href="/">
+              <h2>Logo template</h2>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
               aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -118,25 +130,17 @@ https://templatemo.com/tm-545-finance-business
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
               <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link current data-editable" href="#top" data-editableproperties="innerText"
-                    class="data-editable">Home</a>
+                <li class="nav-item data-editable" data-title="Block 1" id="head-block1">
+                  <a class="nav-link current" href="#top" data-index="0" data-editiontype="href%text">Home</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link data-editable" href="#services" data-editableproperties="innerText"
-                    class="data-editable">Our Services</a>
+                <li class="nav-item data-editable" data-title=" Block 2" id="head-block2">
+                  <a class="nav-link" href="#services" data-index="0" data-editiontype="href%text">Our Services</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link data-editable" href="#about" data-editableproperties="innerText"
-                    class="data-editable">About Us</a>
+                <li class="nav-item data-editable" data-title=" Block 3" id="head-block3">
+                  <a class="nav-link" href="#about" data-index="0" data-editiontype="href%text">About Us</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link data-editable" href="#contactus" data-editableproperties="innerText"
-                    class="data-editable">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link data-editable external" href="index.html" data-editableproperties="innerText"
-                    class="data-editable">Multi-page</a>
+                <li class="nav-item data-editable" data-title=" Block 4" id="head-block4">
+                  <a class="nav-link" href="#contactus" data-index="0" data-editiontype="href%text">Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -149,54 +153,66 @@ https://templatemo.com/tm-545-finance-business
       <div class="main-banner header-text" id="top" data-section="banner" data-sectionTitle="Banner">
         <div class="Modern-Slider">
           <!-- Item -->
-          <div class="item item-1">
-            <div class="img-fill">
-              <div class="text-content">
-                <div class="data-editable" data-editableproperties="innerHTML">
-                  <h6>we are ready to help you</h6>
-                  <h4>Financial Analysis<br>&amp; Consulting</h4>
-                  <p>This finance HTML template is 100% free of charge provided by TemplateMo. This is one-page version
-                    added in 2021 February. <a href="index.html">Multiple-page version</a> with different HTML pages are
-                    also available.</p>
+          <div class="data-editable" data-title="Block 1" id="banner-block1">
+            <div class="item item-1">
+              <div class="img-fill" data-index="0" data-editiontype="backgroundImage"
+                style="background-image: url(assets/images/slide_01.jpg)">
+                <div class="text-content">
+                  <div>
+                    <h6 data-index="1" data-editiontype="text">we are ready to help you</h6>
+                    <h4 data-index="2" data-editiontype="text">Financial Analysis<br>&amp; Consulting</h4>
+                    <p data-index="3" data-editiontype="text">This finance HTML template is 100% free of charge provided
+                      by TemplateMo. This is one-page version
+                      added in 2021 February. <a href="index.html">Multiple-page version</a> with different HTML pages
+                      are
+                      also available.</p>
+                  </div>
+                  <a href="contact.html" data-index="4" data-editiontype="href%text" class="filled-button">contact
+                    us</a>
                 </div>
-                <a href="contact.html" class="filled-button data-editable" data-editableproperties="innerText">contact
-                  us</a>
               </div>
             </div>
           </div>
           <!-- // Item -->
           <!-- Item -->
-          <div class="item item-2">
-            <div class="img-fill">
-              <div class="text-content">
-                <div class="data-editable" data-editableproperties="innerHTML">
-                  <h6>we are here to support you</h6>
-                  <h4>Accounting<br>&amp; Management</h4>
-                  <p>You are allowed to use this template for your company websites. You are NOT allowed to
-                    re-distribute
-                    this template ZIP file on any template download website. Please contact TemplateMo for more detail.
-                  </p>
+          <div class="data-editable" data-title="Block 2" id="banner-block2">
+            <div class="item item-2">
+              <div class="img-fill" data-index="0" data-editiontype="backgroundImage"
+                style="background-image: url(assets/images/slide_02.jpg)">
+                <div class="text-content">
+                  <div>
+                    <h6 data-index="1" data-editiontype="text">we are here to support you</h6>
+                    <h4 data-index="2" data-editiontype="text">Accounting<br>&amp; Management</h4>
+                    <p data-index="3" data-editiontype="text">You are allowed to use this template for your company
+                      websites. You are NOT allowed to
+                      re-distribute
+                      this template ZIP file on any template download website. Please contact TemplateMo for more
+                      detail.
+                    </p>
+                  </div>
+                  <a href="services.html" data-index="4" data-editiontype="href%text" class="filled-button">our
+                    services</a>
                 </div>
-
-                <a href="services.html" class="filled-button data-editable" data-editableproperties="innerText">our
-                  services</a>
               </div>
             </div>
           </div>
           <!-- // Item -->
           <!-- Item -->
-          <div class="item item-3">
-            <div class="img-fill">
-              <div class="text-content">
-                <div class="data-editable" data-editableproperties="innerHTML">
-                  <h6>we have a solid background</h6>
-                  <h4>Market Analysis<br>&amp; Statistics</h4>
-                  <p>You can download, edit and use this finance business layout for your commercial websites. You just
-                    need
-                    to put class="external" if you wish to link to external URLs in the main menu.</p>
+          <div class="data-editable" data-title="Block 3" id="banner-block3">
+            <div class="item item-3">
+              <div class="img-fill" data-index="0" data-editiontype="backgroundImage"
+                style="background-image: url(assets/images/slide_03.jpg)">
+                <div class="text-content">
+                  <div>
+                    <h6 data-index="1" data-editiontype="text">we have a solid background</h6>
+                    <h4 data-index="2" data-editiontype="text">Market Analysis<br>&amp; Statistics</h4>
+                    <p data-index="3" data-editiontype="text">You can download, edit and use this finance business
+                      layout for your commercial websites. You just
+                      need
+                      to put class="external" if you wish to link to external URLs in the main menu.</p>
+                  </div>
+                  <a href="about.html" data-index="4" data-editiontype="href%text" class="filled-button">learn more</a>
                 </div>
-                <a href="about.html" class="filled-button data-editable" data-editableproperties="innerText">learn
-                  more</a>
               </div>
             </div>
           </div>
@@ -205,17 +221,19 @@ https://templatemo.com/tm-545-finance-business
       </div>
       <!-- Banner Ends Here -->
 
-      <div class="request-form" data-section="bannerBottom" data-sectionTitle="Request Form">
-        <div class="container">
-          <div class="row">
+      <div class="request-form" id="bannerBottom" data-section="bannerBottom" data-sectionTitle="Request Form">
+        <div class="container data-editable" data-title="Block 1" id="bannerBottom-block1">
+          <di class="row">
             <div class="col-md-8">
-              <h4>Request a call back right now ?</h4>
-              <span>Mauris ut dapibus velit cras interdum nisl ac urna tempor mollis.</span>
+              <h4 data-index="0" data-editiontype="text">Request a call back right now ?</h4>
+              <span data-index="1" data-editiontype="text">Mauris ut dapibus velit cras interdum nisl ac urna tempor
+                mollis.</span>
             </div>
             <div class="col-md-4">
-              <a href="contact.html"  class="border-button data-editable" data-editableproperties="innerText">Contact Us</a>
+              <a href="contact.html" class="border-button" data-index="2" data-editiontype="href%text">Contact
+                Us</a>
             </div>
-          </div>
+          </di>
         </div>
       </div>
 
@@ -223,17 +241,19 @@ https://templatemo.com/tm-545-finance-business
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <div class="section-heading">
-                <h2 class="data-editable" data-editableproperties="innerHTML">Financial <em>Services</em></h2>
-                <span class="data-editable" data-editableproperties="innerText">Aliquam id urna imperdiet libero mollis hendrerit</span>
+              <div class="section-heading data-editable" data-title="Block 1" id="services-block1">
+                <h2 data-index="0" data-editiontype="text">Financial <em>Services</em></h2>
+                <span data-index="1" data-editiontype="text">Aliquam id urna imperdiet libero mollis
+                  hendrerit</span>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="service-item">
-                <img src="assets/images/service_01.jpg" alt="">
+              <div class="service-item data-editable" data-title="Block 2" id="services-block2">
+                <img src="assets/images/service_01.jpg" alt="" data-index="0" data-editiontype="img">
                 <div class="down-content">
-                  <h4 >Digital Currency</h4>
-                  <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo
+                  <h4 data-index="1" data-editiontype="text">Digital Currency</h4>
+                  <p data-index="2" data-editiontype="text">Sed tincidunt dictum lobortis. Aenean tempus diam vel augue
+                    luctus dignissim. Nunc ornare leo
                     tortor.
                   </p>
                   <!--a href="" class="filled-button">Read More</a-->
@@ -241,11 +261,12 @@ https://templatemo.com/tm-545-finance-business
               </div>
             </div>
             <div class="col-md-4">
-              <div class="service-item">
-                <img src="assets/images/service_02.jpg" alt="">
+              <div class="service-item data-editable" data-title="Block 3" id="services-block3">
+                <img src="assets/images/service_02.jpg" alt="" data-index="0" data-editiontype="img">
                 <div class="down-content">
-                  <h4>Market Analysis</h4>
-                  <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo
+                  <h4 data-index="1" data-editiontype="text">Market Analysis</h4>
+                  <p data-index="2" data-editiontype="text">Sed tincidunt dictum lobortis. Aenean tempus diam vel augue
+                    luctus dignissim. Nunc ornare leo
                     tortor.
                   </p>
                   <!--a href="" class="filled-button">Read More</a-->
@@ -253,11 +274,12 @@ https://templatemo.com/tm-545-finance-business
               </div>
             </div>
             <div class="col-md-4">
-              <div class="service-item">
-                <img src="assets/images/service_03.jpg" alt="">
+              <div class="service-item data-editable" data-title="Block 4" id="services-block4">
+                <img src="assets/images/service_03.jpg" alt="" data-index="0" data-editiontype="img">
                 <div class="down-content">
-                  <h4>Historical Data</h4>
-                  <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo
+                  <h4 data-index="1" data-editiontype="text">Historical Data</h4>
+                  <p data-index="2" data-editiontype="text">Sed tincidunt dictum lobortis. Aenean tempus diam vel augue
+                    luctus dignissim. Nunc ornare leo
                     tortor.
                   </p>
                   <!--a href="" class="filled-button">Read More</a-->
@@ -268,14 +290,17 @@ https://templatemo.com/tm-545-finance-business
         </div>
       </div>
 
-      <div class="fun-facts" id="statistques" data-section="statistiques" data-sectionTitle="Statistques">
+      <div class="fun-facts" id="statistques" data-section="statistiques" data-sectionTitle="Statistques"
+        data-directeditiontype="backgroundImage" style="background-image: url(assets/images/fun-facts-bg.jpg);">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <div class="left-content">
-                <span class="data-editable" data-editableproperties="innerText">Lorem ipsum dolor sit amet</span>
-                <h2 class="data-editable" data-editableproperties="innerHTML">Our solutions for your <em>business growth</em></h2>
-                <p class="data-editable" data-editableproperties="innerHTML">Pellentesque ultrices at turpis in vestibulum. Aenean pretium elit nec congue elementum. Nulla luctus
+              <div class="left-content data-editable" data-title="Block 1" id="statistiques-block1">
+                <span data-index="0" data-editiontype="text">Lorem ipsum dolor sit amet</span>
+                <h2 data-index="1" data-editiontype="text">Our solutions for your <em>business
+                    growth</em></h2>
+                <p data-index="2" data-editiontype="text">Pellentesque ultrices at turpis in
+                  vestibulum. Aenean pretium elit nec congue elementum. Nulla luctus
                   laoreet porta. Maecenas at nisi tempus, porta metus vitae, faucibus augue.
                   <br><br>Fusce et venenatis ex. Quisque varius, velit quis dictum sagittis, odio velit molestie nunc,
                   ut
@@ -285,29 +310,29 @@ https://templatemo.com/tm-545-finance-business
               </div>
             </div>
             <div class="col-md-6 align-self-center">
-              <div class="row">
+              <div class="row data-editable" data-title="Block 2" id="statistiques-block2">
                 <div class="col-md-6">
                   <div class="count-area-content">
-                    <div class="count-digit data-editable" data-editableproperties="innerText">945</div>
-                    <div class="count-title data-editable" data-editableproperties="innerText">Work Hours</div>
+                    <div class="count-digit" data-index="0" data-editiontype="text">945</div>
+                    <div class="count-title" data-index="1" data-editiontype="text">Work Hours</div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="count-area-content">
-                    <div class="count-digit data-editable" data-editableproperties="innerText">1280</div>
-                    <div class="count-title data-editable" data-editableproperties="innerText">Great Reviews</div>
+                    <div class="count-digit" data-index="2" data-editiontype="text">1280</div>
+                    <div class="count-title" data-index="3" data-editiontype="text">Great Reviews</div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="count-area-content">
-                    <div class="count-digit data-editable" data-editableproperties="innerText">578</div>
-                    <div class="count-title data-editable" data-editableproperties="innerText">Projects Done</div>
+                    <div class="count-digit" data-index="4" data-editiontype="text">578</div>
+                    <div class="count-title" data-index="5" data-editiontype="text">Projects Done</div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="count-area-content">
-                    <div class="count-digit data-editable" data-editableproperties="innerText">26</div>
-                    <div class="count-title data-editable" data-editableproperties="innerText">Awards Won</div>
+                    <div class="count-digit" data-index="6" data-editiontype="text">26</div>
+                    <div class="count-title" data-index="7" data-editiontype="text">Awards Won</div>
                   </div>
                 </div>
               </div>
@@ -320,18 +345,19 @@ https://templatemo.com/tm-545-finance-business
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <div class="more-info-content">
+              <div class="more-info-content data-editable" data-title="Block 1" id="description-block1">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="left-image">
-                      <img src="assets/images/more-info.jpg" alt="" class="data-editable" data-editableproperties="src">
+                      <img src="assets/images/more-info.jpg" alt="" data-index="0" class="data-editable" data-editiontype="img">
                     </div>
                   </div>
-                  <div class="col-md-6 align-self-center data-editable" data-editableproperties="innerHTML">
-                    <div class="right-content">
-                      <span>Who we are</span>
-                      <h2>Get to know about <em>our company</em></h2>
-                      <p>Curabitur pulvinar sem a leo tempus facilisis. Sed non sagittis neque. Nulla conse quat tellus
+                  <div class="col-md-6 align-self-center">
+                    <div class="right-content" >
+                      <span data-index="1" data-editiontype="text">Who we are</span>
+                      <h2 data-index="2" data-editiontype="text">Get to know about <em>our company</em></h2>
+                      <p data-index="3" data-editiontype="text">Curabitur pulvinar sem a leo tempus facilisis. Sed non
+                        sagittis neque. Nulla conse quat tellus
                         nibh, id molestie felis sagittis ut. Nam ullamcorper tempus ipsum in cursus<br><br>Praes end at
                         dictum metus. Morbi id hendrerit lectus, nec dapibus ex. Etiam ipsum quam, luctus eu egestas
                         eget,
@@ -346,72 +372,38 @@ https://templatemo.com/tm-545-finance-business
         </div>
       </div>
 
-      <div class="testimonials" data-section="testimonials" data-sectionTitle="Testimonials">
+      <!--div class="testimonials" id="testimonials" data-section="testimonials" data-sectionTitle="Testimonials">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <div class="section-heading">
-                <h2>What they say <em>about us</em></h2>
-                <span>testimonials from our greatest clients</span>
+              <div class="section-heading data-editable" data-title="Block 1" id="testimonials-block1">
+                <h2 data-index="2" data-editiontype="text">What they say <em>about us</em></h2>
+                <span data-index="2" data-editiontype="text">testimonials from our greatest clients</span>
               </div>
             </div>
             <div class="col-md-12">
               <div class="owl-testimonials owl-carousel">
-
                 <div class="testimonial-item">
-                  <div class="inner-content">
-                    <h4>George Walker</h4>
-                    <span>Chief Financial Analyst</span>
-                    <p>"Nulla ullamcorper, ipsum vel condimentum congue, mi odio vehicula tellus, sit amet malesuada
-                      justo
-                      sem sit amet quam. Pellentesque in sagittis lacus."</p>
+                  <div class="inner-content" data-title="Block 2" id="testimonials-block2">
+                    <h4 data-index="0" data-editiontype="text">George Walker</h4>
+                    <span data-index="1" data-editiontype="text">Chief Financial Analyst</span>
+                    <p data-index="2" data-editiontype="text">"Nulla ullamcorper, ipsum vel condimentum congue, mi odio vehicula tellus, sit amet malesuada justo em sit amet quam. Pellentesque in sagittis lacus."</p>
                   </div>
                   <img src="http://placehold.it/60x60" alt="">
                 </div>
-
-                <div class="testimonial-item">
-                  <div class="inner-content">
-                    <h4>John Smith</h4>
-                    <span>Market Specialist</span>
-                    <p>"In eget leo ante. Sed nibh leo, laoreet accumsan euismod quis, scelerisque a nunc. Mauris
-                      accumsan, arcu id ornare malesuada, est nulla luctus nisi."</p>
-                  </div>
-                  <img src="http://placehold.it/60x60" alt="">
-                </div>
-
-                <div class="testimonial-item">
-                  <div class="inner-content">
-                    <h4>David Wood</h4>
-                    <span>Chief Accountant</span>
-                    <p>"Ut ultricies maximus turpis, in sollicitudin ligula posuere vel. Donec finibus maximus neque,
-                      vitae egestas quam imperdiet nec. Proin nec mauris eu tortor consectetur tristique."</p>
-                  </div>
-                  <img src="http://placehold.it/60x60" alt="">
-                </div>
-
-                <div class="testimonial-item">
-                  <div class="inner-content">
-                    <h4>Andrew Boom</h4>
-                    <span>Marketing Head</span>
-                    <p>"Curabitur sollicitudin, tortor at suscipit volutpat, nisi arcu aliquet dui, vitae semper sem
-                      turpis quis libero. Quisque vulputate lacinia nisl ac lobortis."</p>
-                  </div>
-                  <img src="http://placehold.it/60x60" alt="">
-                </div>
-
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </!--div-->
 
       <div class="callback-form" id="contactus" data-section="callback" data-sectionTitle="Contact us">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <div class="section-heading">
-                <h2>Request a <em>call back</em></h2>
-                <span>Etiam suscipit ante a odio consequat</span>
+              <div class="section-heading data-editable" data-title="Block 1" id="testimonials-block1">
+                <h2 data-index="0" data-editiontype="text">Request a <em>call back</em></h2>
+                <span data-index="1" data-editiontype="text">Etiam suscipit ante a odio consequat</span>
               </div>
             </div>
             <div class="col-md-12">
@@ -455,32 +447,14 @@ https://templatemo.com/tm-545-finance-business
         </div>
       </div>
 
-      <div class="partners" data-section="partners" data-sectionTitle="Partners">
+      <div class="partners" id="partners" data-section="partners" data-sectionTitle="Partners">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
               <div class="owl-partners owl-carousel">
-
                 <div class="partner-item">
                   <img src="assets/images/client-01.png" title="1" alt="1">
                 </div>
-
-                <div class="partner-item">
-                  <img src="assets/images/client-01.png" title="2" alt="2">
-                </div>
-
-                <div class="partner-item">
-                  <img src="assets/images/client-01.png" title="3" alt="3">
-                </div>
-
-                <div class="partner-item">
-                  <img src="assets/images/client-01.png" title="4" alt="4">
-                </div>
-
-                <div class="partner-item">
-                  <img src="assets/images/client-01.png" title="5" alt="5">
-                </div>
-
               </div>
             </div>
           </div>
@@ -489,43 +463,48 @@ https://templatemo.com/tm-545-finance-business
 
 
       <!-- Footer Starts Here -->
-      <footer data-section="footer" data-sectionTitle="Footer">
+      <footer data-section="footer" id="footer" data-sectionTitle="Footer">
         <div class="container">
           <div class="row">
-            <div class="col-md-3 footer-item">
-              <h4>Finance Business</h4>
-              <p>Vivamus tellus mi. Nulla ne cursus elit,vulputate. Sed ne cursus augue hasellus lacinia sapien vitae.
+            <div class="col-md-3 footer-item data-editable" data-title="Block 1" id="footer-block1">
+              <h4 data-index="0" data-editiontype="text">Finance Business</h4>
+              <p data-index="1" data-editiontype="text">Vivamus tellus mi. Nulla ne cursus elit,vulputate. Sed ne cursus
+                augue hasellus lacinia sapien vitae.
               </p>
               <ul class="social-icons">
-                <li><a rel="nofollow" href="https://fb.com/templatemo" target="_blank"><i class="fa fa-facebook"
+                <li><a rel="nofollow" href="https://fb.com/templatemo" target="_blank" data-index="2"
+                    data-editiontype="href"><i data-index="3" data-editiontype="icon" class="fa fa-facebook"
                       aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                <li><a href="#" data-index="4" data-editiontype="href"><i data-index="5" data-editiontype="icon"
+                      class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#" data-index="6" data-editiontype="href"><i data-index="7" data-editiontype="icon"
+                      class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#" data-index="8" data-editiontype="href"><i data-index="9" data-editiontype="icon"
+                      class="fa fa-behance" aria-hidden="true"></i></a></li>
               </ul>
             </div>
-            <div class="col-md-3 footer-item">
-              <h4>Useful Links</h4>
+            <div class="col-md-3 footer-item data-editable" data-title="Block 2" id="footer-block2">
+              <h4 data-index="0" data-editiontype="text">Useful Links</h4>
               <ul class="menu-list">
-                <li><a href="#">Vivamus ut tellus mi</a></li>
-                <li><a href="#">Nulla nec cursus elit</a></li>
-                <li><a href="#">Vulputate sed nec</a></li>
-                <li><a href="#">Cursus augue hasellus</a></li>
-                <li><a href="#">Lacinia ac sapien</a></li>
+                <li><a href="#" data-index="1" data-editiontype="href%text">Vivamus ut tellus mi</a></li>
+                <li><a href="#" data-index="2" data-editiontype="href%text">Nulla nec cursus elit</a></li>
+                <li><a href="#" data-index="3" data-editiontype="href%text">Vulputate sed nec</a></li>
+                <li><a href="#" data-index="4" data-editiontype="href%text">Cursus augue hasellus</a></li>
+                <li><a href="#" data-index="5" data-editiontype="href%text">Lacinia ac sapien</a></li>
               </ul>
             </div>
-            <div class="col-md-3 footer-item">
-              <h4>Additional Pages</h4>
+            <div class="col-md-3 footer-item data-editable" data-title="Block 3" id="footer-block3">
+              <h4 data-index="0" data-editiontype="text">Additional Pages</h4>
               <ul class="menu-list">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">How We Work</a></li>
-                <li><a href="#">Quick Support</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Privacy Policy</a></li>
+                <li><a data-index="1" data-editiontype="href%text" href="#">About Us</a></li>
+                <li><a data-index="2" data-editiontype="href%text" href="#">How We Work</a></li>
+                <li><a data-index="3" data-editiontype="href%text" href="#">Quick Support</a></li>
+                <li><a data-index="5" data-editiontype="href%text" href="#">Contact Us</a></li>
+                <li><a data-index="6" data-editiontype="href%text" href="#">Privacy Policy</a></li>
               </ul>
             </div>
-            <div class="col-md-3 footer-item last-item">
-              <h4>Contact Us</h4>
+            <div class="col-md-3 footer-item last-item data-editable" data-title="Block 3" id="footer-block3">
+              <h4 data-index="0" data-editiontype="text">Contact Us</h4>
               <div class="contact-form">
                 <form id="contact footer-contact" action="" method="post">
                   <div class="row">
@@ -560,11 +539,11 @@ https://templatemo.com/tm-545-finance-business
         </div>
       </footer>
 
-      <div class="sub-footer" data-section="subFooter" data-sectionTitle="Sub Footer">
+      <div class="sub-footer" id="sub-footer" data-section="subFooter" data-sectionTitle="Sub Footer">
         <div class="container">
-          <div class="row">
+          <div class="row data-editable" data-title="Block 1" id="sub-footer-block1">
             <div class="col-md-12">
-              <p>Copyright &copy; 2020 Financial Business Co., Ltd.
+              <p data-index="0" data-editiontype="text">Copyright &copy; 2020 Financial Business Co., Ltd.
 
                 - Design: <a rel="nofollow noopener" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
             </div>
@@ -573,9 +552,10 @@ https://templatemo.com/tm-545-finance-business
       </div>
 
     </div>
-    <div class="col-sm-2 shadow py-3 px-0">
+    <div class="col-sm-3 shadow py-3 px-0">
       <h6 class="px-3">Page Edition</h6>
       <hr>
+      <div id="block-edition"></div>
     </div>
   </div>
 
@@ -583,7 +563,6 @@ https://templatemo.com/tm-545-finance-business
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
   <!-- Additional Scripts -->
   <script src="assets/js/jquery.singlePageNav.min.js"></script>
   <script src="assets/js/custom.js"></script>
@@ -591,8 +570,9 @@ https://templatemo.com/tm-545-finance-business
   <script src="assets/js/slick.js"></script>
   <script src="assets/js/accordions.js"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
   <script>
-    window.addEventListener('load', function () {
+    $(document).ready(function () {
       sections = document.querySelectorAll('[data-section]')
       editMenu = document.querySelector('#edit-menu-items')
       for (section of sections) {
@@ -600,7 +580,13 @@ https://templatemo.com/tm-545-finance-business
           let subitems = ""
           editableComponents = document.querySelectorAll(`#${section.id} .data-editable`)
           for (component of editableComponents) {
-            subitems += subMenuItem(tag[component.tagName.toLowerCase()])
+            if (component.id !== "") {
+              subitems += subMenuItem(component.dataset.title, component.id);
+            }
+          }
+          //DirectEdition
+          if (section.dataset.directeditiontype !== undefined) {
+            subitems += subMenuItem(section.dataset.sectiontitle, section.id);
           }
           editMenu.innerHTML += menuItem(section.dataset.sectiontitle, subitems)
         }
@@ -623,9 +609,9 @@ https://templatemo.com/tm-545-finance-business
     }
 
 
-    function subMenuItem(title) {
+    function subMenuItem(title, id) {
       return ` <li>
-        <button class="slide btn btn-primary bg-white text-dark border-0 rounded-0 w-100 text-left px-4 d-flex mt-1 align-items-center justify-content-left">${title}</button>
+        <button data-submenuitem="${id}" class="slide btn btn-primary bg-white text-dark border-0 rounded-0 w-100 text-left px-4 d-flex mt-1 align-items-center justify-content-left"><i class="fa fa-pencil" aria-hidden="true" data-submenuitem="${id}"></i> <span class="mx-2" data-submenuitem="${id}">${title}</span></button>
       </li>`
     }
 
@@ -640,8 +626,176 @@ https://templatemo.com/tm-545-finance-business
           nextElement.addClass("d-none");
           firstChild.removeClass('fa-caret-down').addClass('fa-caret-right');
         }
+      });
+
+      $('button [data-submenuitem]').click(function () {
+        addInEditBlock(this.dataset.submenuitem)
+      });
+
+      $('[data-submenuitem]').mouseenter(function () {
+        $(`#${this.dataset.submenuitem}`).css('border', '3px solid')
       })
+
+      $('[data-submenuitem]').mouseout(function () {
+        $(`#${this.dataset.submenuitem}`).css('border', '')
+      })
+
     }
+
+    const addInEditBlock = (element) => {
+      components = ($(`#${element} [data-editiontype]`))
+      section = document.querySelector(`#${element}`)
+      editionBLock = document.querySelector('#block-edition');
+      editionBLock.dataset.id = element
+      editionBLock.innerHTML = ""
+      //DirectEdition
+      if (section.dataset.directeditiontype !== undefined) {
+        for (type of section.dataset.directeditiontype.split('%')) {
+          editionBLock.innerHTML += content[type](section, '-1')
+          editionBLock.innerHTML += '<hr />'
+        }
+      } else {
+        for (component of components) {
+          for (type of component.dataset.editiontype.split('%')) {
+            editionBLock.innerHTML += content[type](component, component.dataset.index)
+            editionBLock.innerHTML += '<hr />'
+          }
+        }
+      }
+      $(".icon-select").select2({
+        templateResult: formatState,
+        templateSelection: formatState
+      });
+
+      addActionOnChildEditBlock(editionBLock)
+    }
+
+    function addActionOnChildEditBlock(element) {
+      for (child of element.childNodes) {
+        $(child).keyup(function () {
+          realParent = document.querySelector(`#${this.parentNode.dataset.id}`)
+          element = $(`#${this.parentNode.dataset.id} [data-index=${this.dataset.index}]`)[0]
+          if (section.dataset.directeditiontype !== undefined) {
+            element = section
+          } 
+          if (setContent[this.dataset.editiontype] !== undefined) {
+            setContent[this.dataset.editiontype](element, this);
+          }
+        })
+
+        $(child).change(function () {
+          realParent = document.querySelector(`#${this.parentNode.dataset.id}`)
+          element = $(`#${this.parentNode.dataset.id} [data-index=${this.dataset.index}]`)[0]
+          if (section.dataset.directeditiontype !== undefined) {
+            element = section
+          } 
+          if (setContent[this.dataset.editiontype] !== undefined) {
+            setContent[this.dataset.editiontype](element, this);
+          }
+        })
+      }
+    }
+
+    function formatState(opt) {
+      if (!opt.id) {
+        return opt.text.toUpperCase();
+      }
+
+      var fa = $(opt.element).attr('data-icon');
+      if (!fa) {
+        return opt.text.toUpperCase();
+      } else {
+        return $('<i class="' + fa + '" aria-hidden="true"></i>');
+      }
+    }
+
+    const content = {
+
+      "icon": (value, index) => {
+
+        iconList = `<option value="fa fa-envelope" data-icon="fa fa-envelope" >Icon</option><option value="fa fa-clock-o" data-icon="fa fa-clock-o" >Icon</option><option value="fa fa-home" data-icon="fa fa-home" >Icon</option>`
+        return `<select data-index="${index}" data-editiontype="icon" class="form-control rounded-0 icon-select rounded-0"><option selected data-icon="${value.className}">Icon</option>${iconList}</select>`
+
+      },
+
+      "text": (value, index) => {
+
+        return `<input data-index="${index}" data-editiontype="text" class="form-control" type="text" value="${value.innerText}" />`
+
+      },
+
+      "href": (value, index) => {
+
+        return `<input data-index="${index}" data-editiontype="href" class="form-control" type="text" value="${value.href}" />`
+
+      },
+
+      "backgroundImage": (value, index) => {
+        let src = (value.style["background-image"].split('"')[1])
+        return `<input data-blockId="img-article" id="upload_imgs" data-index="${index}"  data-editiontype="backgroundImage" class="file-selector d-none" type="file" name="image" required />
+        <div class="form-group row d-flex justify-content-center">
+          <div class="col-sm">
+              <div class="d-flex justify-content-start p-0">
+                  <label for="upload_imgs" class="rounded text-white">
+                      <img id="img-article" src="${src}" style="height: 80px"
+                          alt="Slide image" class="mx-auto w-100 d-block img-thumbnail">
+                  </label>
+              </div>
+          </div>
+      </div>`
+      },
+
+      "img": (value, index) => {
+        let src = value.src
+        return `<input data-blockId="img-article" id="upload_imgs" data-index="${index}"  data-editiontype="img" class="file-selector d-none" type="file" name="image" required />
+        <div class="form-group row d-flex justify-content-center">
+          <div class="col-sm">
+              <div class="d-flex justify-content-start p-0">
+                  <label for="upload_imgs" class="rounded text-white">
+                      <img id="img-article" src="${src}" style="height: 80px"
+                          alt="Slide image" class="mx-auto w-100 d-block img-thumbnail">
+                  </label>
+              </div>
+          </div>
+      </div>`
+      }
+
+    }
+
+
+    const setContent = {
+
+      "icon": (element, content) => {
+
+        element.className = content.value
+
+      },
+
+      "text": (element, content) => {
+
+        element.innerText = content.value
+
+      },
+
+      "href": (element, content) => {
+
+        element.href = content.value
+
+      },
+
+      "backgroundImage": (element, value) => {
+        $(`#${value.dataset.blockid}`).attr('src', window.URL.createObjectURL(value.files[0]));
+        $(`#${value.dataset.blockid}`).attr('alt', value.files[0].name);
+        element.style["background-image"] = `url("${window.URL.createObjectURL(value.files[0])}")`
+      },
+
+      "img": (element, value) => {
+        $(`#${value.dataset.blockid}`).attr('src', window.URL.createObjectURL(value.files[0]));
+        $(`#${value.dataset.blockid}`).attr('alt', value.files[0].name);
+        element.src = window.URL.createObjectURL(value.files[0])
+      },
+    }
+
 
     const tag = {
       "a": '<i class="fa fa-link" aria-hidden="true"></i> <span class="mx-2">Link</span>',
