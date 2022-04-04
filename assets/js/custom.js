@@ -76,18 +76,18 @@ jQuery( document ).ready(function( $ ) {
                         items: 1,
                         margin: 0
                     },
-                    460: {
-                        items: 1,
-                        margin: 0
-                    },
-                    576: {
-                        items: 2,
-                        margin: 20
-                    },
-                    992: {
-                        items: 4,
-                        margin: 30
-                    }
+                    // 460: {
+                    //     items: 1,
+                    //     margin: 0
+                    // },
+                    // 576: {
+                    //     items: 2,
+                    //     margin: 20
+                    // },
+                    // 992: {
+                    //     items: 4,
+                    //     margin: 30
+                    // }
                 }
             });
         }
